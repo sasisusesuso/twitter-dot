@@ -4,7 +4,7 @@ import line as ln
 
 def main():
     try:
-        # 値段、時価総額ランクを取得 
+        # 値段、時価総額ランクを取得  
         scraping = sp.Scraping()
         price, cmc_rank, percent_change_24h = scraping.get_dot_info()
   
